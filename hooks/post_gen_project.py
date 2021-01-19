@@ -22,5 +22,5 @@ all_names = {}
 with open(os.path.join(temp_dir, 'vars.json')) as f:
   all_names = json.load(f)
 
-shutil.rmtree(temp_dir)
-shutil.rmtree('_cctmp')
+# shutil.rmtree(temp_dir)
+# shutil.rmtree('_cctmp')
